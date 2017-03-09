@@ -1,0 +1,1360 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:LEDS
+LIBS:light-cache
+EELAYER 25 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "Grow Light - LED Board"
+Date ""
+Rev "0.5"
+Comp "Faust Light"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Led_Small D1
+U 1 1 576301AA
+P 4100 2950
+F 0 "D1" H 4050 3075 50  0000 L CNN
+F 1 "White_LED" H 3925 2850 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 2950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 2950 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 2950 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 2950 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 2950 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 2950 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 2950 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 2950 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 2950 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 2950 60  0001 C CNN "Qty:5000"
+	1    4100 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7650 3100 7450 3100
+Wire Wire Line
+	7250 3100 7050 3100
+Wire Wire Line
+	6850 3100 6650 3100
+Wire Wire Line
+	6450 3100 6250 3100
+Wire Wire Line
+	6200 4300 6400 4300
+Wire Wire Line
+	6600 4300 6800 4300
+Wire Wire Line
+	7000 4300 7200 4300
+Wire Wire Line
+	7400 4300 7600 4300
+Text GLabel 3800 2950 0    60   Input ~ 0
+W+
+Text GLabel 5900 3100 0    60   Input ~ 0
+B+
+Text GLabel 5850 4300 0    60   Input ~ 0
+R+
+Text GLabel 5000 2950 2    60   Input ~ 0
+W-
+Wire Wire Line
+	6050 3100 5900 3100
+Wire Wire Line
+	6000 4300 5850 4300
+$Comp
+L Led_W/Thermal_Pad D37
+U 1 1 5771778E
+P 6100 4300
+F 0 "D37" H 6050 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 5800 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 6100 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 6100 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 6100 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6100 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 6100 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 6100 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 6100 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 6100 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 6100 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 6100 4300 60  0001 C CNN "Qty:5000"
+	1    6100 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6550 2950 6550 3000
+Wire Wire Line
+	6950 2950 6950 3000
+Wire Wire Line
+	7350 2950 7350 3000
+Connection ~ 6950 2950
+Wire Wire Line
+	7750 2950 7750 3000
+Connection ~ 7350 2950
+Connection ~ 7750 2950
+Wire Wire Line
+	6100 4200 6100 4150
+Wire Wire Line
+	6500 4150 6500 4200
+Wire Wire Line
+	6900 4150 6900 4200
+Connection ~ 6500 4150
+Wire Wire Line
+	7300 4150 7300 4200
+Connection ~ 6900 4150
+Wire Wire Line
+	7700 4150 7700 4200
+Connection ~ 7300 4150
+Connection ~ 7700 4150
+Wire Wire Line
+	6150 3000 6150 2950
+Text GLabel 8250 3100 2    60   Input ~ 0
+B-
+Text GLabel 8850 4300 2    60   Input ~ 0
+R-
+Wire Wire Line
+	7900 4300 7800 4300
+Wire Wire Line
+	6100 4150 8850 4150
+Wire Wire Line
+	6500 4150 6900 4150
+Wire Wire Line
+	6150 2950 8250 2950
+Connection ~ 6550 2950
+Wire Wire Line
+	7850 3100 7950 3100
+Text GLabel 8850 4150 2    60   Input ~ 0
+THERMAL
+Text GLabel 8250 2950 2    60   Input ~ 0
+THERMAL
+Text GLabel 2300 3700 0    60   Input ~ 0
+W+
+Text GLabel 3000 3700 2    60   Input ~ 0
+W-
+Text GLabel 2300 3850 0    60   Input ~ 0
+B+
+Text GLabel 3000 3850 2    60   Input ~ 0
+B-
+Text GLabel 2300 3550 0    60   Input ~ 0
+R+
+Text GLabel 3000 3550 2    60   Input ~ 0
+R-
+$Comp
+L CONN_02X03 P1
+U 1 1 57BA50F7
+P 2650 3700
+F 0 "P1" H 2650 3900 50  0000 C CNN
+F 1 "CONN_02X03" H 2650 3500 50  0000 C CNN
+F 2 "junes:1814676" H 2650 2500 60  0001 C CNN
+F 3 "http://www.phoenixcontact.com/us/products/1814676/pdf" H 2650 2500 60  0001 C CNN
+F 4 "1814676" H 2650 3700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Phoenix Contact" H 2650 3700 60  0001 C CNN "Manufacturer"
+F 6 "651-1814676" H 2650 3700 60  0001 C CNN "Mouser_Part_#"
+F 7 "$1.15" H 2650 3700 60  0001 C CNN "Qty:1"
+F 8 "$1.07" H 2650 3700 60  0001 C CNN "Qty:10"
+F 9 "$0.987" H 2650 3700 60  0001 C CNN "Qty:100"
+F 10 "$0.809" H 2650 3700 60  0001 C CNN "Qty:1000"
+F 11 "$0.748" H 2650 3700 60  0001 C CNN "Qty:5000"
+	1    2650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3700 2300 3700
+Wire Wire Line
+	2900 3700 3000 3700
+Wire Wire Line
+	2900 3600 2950 3600
+Wire Wire Line
+	2950 3600 2950 3550
+Wire Wire Line
+	2950 3550 3000 3550
+Wire Wire Line
+	2400 3600 2350 3600
+Wire Wire Line
+	2350 3600 2350 3550
+Wire Wire Line
+	2350 3550 2300 3550
+Wire Wire Line
+	2400 3800 2350 3800
+Wire Wire Line
+	2350 3800 2350 3850
+Wire Wire Line
+	2350 3850 2300 3850
+Wire Wire Line
+	2900 3800 2950 3800
+Wire Wire Line
+	2950 3800 2950 3850
+Wire Wire Line
+	2950 3850 3000 3850
+$Comp
+L Led_W/Thermal_Pad D25
+U 1 1 58311220
+P 6150 3100
+F 0 "D25" H 6100 3225 50  0000 L CNN
+F 1 "Blue 450nm" H 5850 3300 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 6150 3100 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 6150 3100 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 6150 3100 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6150 3100 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 6150 3100 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 6150 3100 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 6150 3100 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 6150 3100 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 6150 3100 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 6150 3100 60  0001 C CNN "Qty:5000"
+	1    6150 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 2950 4000 2950
+Wire Wire Line
+	4200 2950 4300 2950
+Wire Wire Line
+	4500 2950 4600 2950
+Wire Wire Line
+	4800 2950 5000 2950
+Wire Wire Line
+	4000 3200 3950 3200
+Wire Wire Line
+	3950 2950 3950 4700
+Connection ~ 3950 2950
+Wire Wire Line
+	3950 3450 4000 3450
+Connection ~ 3950 3200
+Wire Wire Line
+	3950 3700 4000 3700
+Connection ~ 3950 3450
+Wire Wire Line
+	4200 3200 4300 3200
+Wire Wire Line
+	4500 3200 4600 3200
+Wire Wire Line
+	4600 3450 4500 3450
+Wire Wire Line
+	4300 3450 4200 3450
+Wire Wire Line
+	4200 3700 4300 3700
+Wire Wire Line
+	4500 3700 4600 3700
+Wire Wire Line
+	4800 3200 4850 3200
+Wire Wire Line
+	4850 2950 4850 4700
+Connection ~ 4850 2950
+Wire Wire Line
+	4850 3450 4800 3450
+Connection ~ 4850 3200
+Wire Wire Line
+	4850 3700 4800 3700
+Connection ~ 4850 3450
+Wire Wire Line
+	4850 3950 4800 3950
+Connection ~ 4850 3700
+Wire Wire Line
+	4850 4200 4800 4200
+Connection ~ 4850 3950
+Wire Wire Line
+	4850 4450 4800 4450
+Connection ~ 4850 4200
+Wire Wire Line
+	3950 3950 4000 3950
+Connection ~ 3950 3700
+Wire Wire Line
+	3950 4200 4000 4200
+Connection ~ 3950 3950
+Wire Wire Line
+	3950 4450 4000 4450
+Connection ~ 3950 4200
+Wire Wire Line
+	4200 4450 4300 4450
+Wire Wire Line
+	4500 4450 4600 4450
+Wire Wire Line
+	4600 4200 4500 4200
+Wire Wire Line
+	4300 4200 4200 4200
+Wire Wire Line
+	4200 3950 4300 3950
+Wire Wire Line
+	4500 3950 4600 3950
+Wire Wire Line
+	3950 4700 4000 4700
+Connection ~ 3950 4450
+Wire Wire Line
+	4200 4700 4300 4700
+Wire Wire Line
+	4500 4700 4600 4700
+Wire Wire Line
+	4850 4700 4800 4700
+Connection ~ 4850 4450
+Wire Wire Line
+	8150 3100 8250 3100
+Wire Wire Line
+	8050 2950 8050 3000
+Connection ~ 8050 2950
+Wire Wire Line
+	7650 3450 7450 3450
+Wire Wire Line
+	7250 3450 7050 3450
+Wire Wire Line
+	6850 3450 6650 3450
+Wire Wire Line
+	6450 3450 6250 3450
+Text GLabel 5900 3450 0    60   Input ~ 0
+B+
+Wire Wire Line
+	6050 3450 5900 3450
+Wire Wire Line
+	6550 3300 6550 3350
+Wire Wire Line
+	6950 3300 6950 3350
+Wire Wire Line
+	7350 3300 7350 3350
+Connection ~ 6950 3300
+Wire Wire Line
+	7750 3300 7750 3350
+Connection ~ 7350 3300
+Connection ~ 7750 3300
+Wire Wire Line
+	6150 3350 6150 3300
+Text GLabel 8250 3450 2    60   Input ~ 0
+B-
+Wire Wire Line
+	6150 3300 8250 3300
+Connection ~ 6550 3300
+Wire Wire Line
+	7850 3450 7950 3450
+Text GLabel 8250 3300 2    60   Input ~ 0
+THERMAL
+Wire Wire Line
+	8150 3450 8250 3450
+Wire Wire Line
+	8050 3300 8050 3350
+Connection ~ 8050 3300
+Wire Wire Line
+	8100 4300 8200 4300
+Wire Wire Line
+	8400 4300 8500 4300
+Wire Wire Line
+	8700 4300 8850 4300
+Wire Wire Line
+	8600 4200 8600 4150
+Connection ~ 8600 4150
+Wire Wire Line
+	8300 4200 8300 4150
+Connection ~ 8300 4150
+Wire Wire Line
+	8000 4200 8000 4150
+Connection ~ 8000 4150
+Wire Wire Line
+	6200 4650 6400 4650
+Wire Wire Line
+	6600 4650 6800 4650
+Wire Wire Line
+	7000 4650 7200 4650
+Wire Wire Line
+	7400 4650 7600 4650
+Text GLabel 5850 4650 0    60   Input ~ 0
+R+
+Wire Wire Line
+	6000 4650 5850 4650
+Wire Wire Line
+	6100 4550 6100 4500
+Wire Wire Line
+	6500 4500 6500 4550
+Wire Wire Line
+	6900 4500 6900 4550
+Connection ~ 6500 4500
+Wire Wire Line
+	7300 4500 7300 4550
+Connection ~ 6900 4500
+Wire Wire Line
+	7700 4500 7700 4550
+Connection ~ 7300 4500
+Connection ~ 7700 4500
+Text GLabel 8850 4650 2    60   Input ~ 0
+R-
+Wire Wire Line
+	7900 4650 7800 4650
+Wire Wire Line
+	6100 4500 8850 4500
+Wire Wire Line
+	6500 4500 6900 4500
+Text GLabel 8850 4500 2    60   Input ~ 0
+THERMAL
+Wire Wire Line
+	8100 4650 8200 4650
+Wire Wire Line
+	8400 4650 8500 4650
+Wire Wire Line
+	8700 4650 8850 4650
+Wire Wire Line
+	8600 4550 8600 4500
+Connection ~ 8600 4500
+Wire Wire Line
+	8300 4550 8300 4500
+Connection ~ 8300 4500
+Wire Wire Line
+	8000 4550 8000 4500
+Connection ~ 8000 4500
+$Comp
+L Led_Small D2
+U 1 1 5881B47D
+P 4400 2950
+F 0 "D2" H 4350 3075 50  0000 L CNN
+F 1 "White_LED" H 4225 2850 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 2950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 2950 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 2950 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 2950 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 2950 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 2950 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 2950 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 2950 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 2950 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 2950 60  0001 C CNN "Qty:5000"
+	1    4400 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D3
+U 1 1 5881B502
+P 4700 2950
+F 0 "D3" H 4650 3075 50  0000 L CNN
+F 1 "White_LED" H 4525 2850 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 2950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 2950 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 2950 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 2950 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 2950 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 2950 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 2950 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 2950 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 2950 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 2950 60  0001 C CNN "Qty:5000"
+	1    4700 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D4
+U 1 1 5881B58E
+P 4100 3200
+F 0 "D4" H 4050 3325 50  0000 L CNN
+F 1 "White_LED" H 3925 3100 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 3200 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 3200 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 3200 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 3200 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 3200 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 3200 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 3200 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 3200 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 3200 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 3200 60  0001 C CNN "Qty:5000"
+	1    4100 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D5
+U 1 1 5881B62D
+P 4400 3200
+F 0 "D5" H 4350 3325 50  0000 L CNN
+F 1 "White_LED" H 4225 3100 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 3200 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 3200 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 3200 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 3200 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 3200 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 3200 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 3200 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 3200 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 3200 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 3200 60  0001 C CNN "Qty:5000"
+	1    4400 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D6
+U 1 1 5881B6BB
+P 4700 3200
+F 0 "D6" H 4650 3325 50  0000 L CNN
+F 1 "White_LED" H 4525 3100 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 3200 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 3200 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 3200 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 3200 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 3200 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 3200 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 3200 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 3200 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 3200 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 3200 60  0001 C CNN "Qty:5000"
+	1    4700 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D7
+U 1 1 5881B750
+P 4100 3450
+F 0 "D7" H 4050 3575 50  0000 L CNN
+F 1 "White_LED" H 3925 3350 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 3450 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 3450 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 3450 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 3450 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 3450 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 3450 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 3450 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 3450 60  0001 C CNN "Qty:5000"
+	1    4100 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D8
+U 1 1 5881B7FA
+P 4400 3450
+F 0 "D8" H 4350 3575 50  0000 L CNN
+F 1 "White_LED" H 4225 3350 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 3450 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 3450 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 3450 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 3450 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 3450 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 3450 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 3450 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 3450 60  0001 C CNN "Qty:5000"
+	1    4400 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D9
+U 1 1 5881B895
+P 4700 3450
+F 0 "D9" H 4650 3575 50  0000 L CNN
+F 1 "White_LED" H 4525 3350 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 3450 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 3450 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 3450 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 3450 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 3450 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 3450 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 3450 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 3450 60  0001 C CNN "Qty:5000"
+	1    4700 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D10
+U 1 1 5881B92F
+P 4100 3700
+F 0 "D10" H 4050 3825 50  0000 L CNN
+F 1 "White_LED" H 3925 3600 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 3700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 3700 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 3700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 3700 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 3700 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 3700 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 3700 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 3700 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 3700 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 3700 60  0001 C CNN "Qty:5000"
+	1    4100 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D11
+U 1 1 5881B9E2
+P 4400 3700
+F 0 "D11" H 4350 3825 50  0000 L CNN
+F 1 "White_LED" H 4225 3600 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 3700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 3700 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 3700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 3700 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 3700 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 3700 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 3700 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 3700 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 3700 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 3700 60  0001 C CNN "Qty:5000"
+	1    4400 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D12
+U 1 1 5881BA86
+P 4700 3700
+F 0 "D12" H 4650 3825 50  0000 L CNN
+F 1 "White_LED" H 4525 3600 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 3700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 3700 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 3700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 3700 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 3700 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 3700 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 3700 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 3700 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 3700 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 3700 60  0001 C CNN "Qty:5000"
+	1    4700 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D15
+U 1 1 5881BB29
+P 4700 3950
+F 0 "D15" H 4650 4075 50  0000 L CNN
+F 1 "White_LED" H 4525 3850 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 3950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 3950 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 3950 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 3950 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 3950 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 3950 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 3950 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 3950 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 3950 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 3950 60  0001 C CNN "Qty:5000"
+	1    4700 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D14
+U 1 1 5881BBD1
+P 4400 3950
+F 0 "D14" H 4350 4075 50  0000 L CNN
+F 1 "White_LED" H 4225 3850 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 3950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 3950 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 3950 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 3950 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 3950 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 3950 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 3950 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 3950 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 3950 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 3950 60  0001 C CNN "Qty:5000"
+	1    4400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D13
+U 1 1 5881BC7A
+P 4100 3950
+F 0 "D13" H 4050 4075 50  0000 L CNN
+F 1 "White_LED" H 3925 3850 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 3950 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 3950 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 3950 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 3950 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 3950 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 3950 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 3950 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 3950 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 3950 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 3950 60  0001 C CNN "Qty:5000"
+	1    4100 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D16
+U 1 1 5881BD2E
+P 4100 4200
+F 0 "D16" H 4050 4325 50  0000 L CNN
+F 1 "White_LED" H 3925 4100 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 4200 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 4200 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 4200 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 4200 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 4200 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 4200 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 4200 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 4200 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 4200 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 4200 60  0001 C CNN "Qty:5000"
+	1    4100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D17
+U 1 1 5881BDDF
+P 4400 4200
+F 0 "D17" H 4350 4325 50  0000 L CNN
+F 1 "White_LED" H 4225 4100 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 4200 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 4200 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 4200 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 4200 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 4200 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 4200 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 4200 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 4200 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 4200 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 4200 60  0001 C CNN "Qty:5000"
+	1    4400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D18
+U 1 1 5881BE91
+P 4700 4200
+F 0 "D18" H 4650 4325 50  0000 L CNN
+F 1 "White_LED" H 4525 4100 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 4200 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 4200 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 4200 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 4200 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 4200 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 4200 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 4200 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 4200 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 4200 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 4200 60  0001 C CNN "Qty:5000"
+	1    4700 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D21
+U 1 1 5881BF46
+P 4700 4450
+F 0 "D21" H 4650 4575 50  0000 L CNN
+F 1 "White_LED" H 4525 4350 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 4450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 4450 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 4450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 4450 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 4450 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 4450 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 4450 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 4450 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 4450 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 4450 60  0001 C CNN "Qty:5000"
+	1    4700 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D20
+U 1 1 5881C000
+P 4400 4450
+F 0 "D20" H 4350 4575 50  0000 L CNN
+F 1 "White_LED" H 4225 4350 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 4450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 4450 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 4450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 4450 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 4450 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 4450 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 4450 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 4450 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 4450 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 4450 60  0001 C CNN "Qty:5000"
+	1    4400 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D19
+U 1 1 5881C0BF
+P 4100 4450
+F 0 "D19" H 4050 4575 50  0000 L CNN
+F 1 "White_LED" H 3925 4350 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 4450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 4450 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 4450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 4450 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 4450 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 4450 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 4450 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 4450 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 4450 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 4450 60  0001 C CNN "Qty:5000"
+	1    4100 4450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D22
+U 1 1 5881C181
+P 4100 4700
+F 0 "D22" H 4050 4825 50  0000 L CNN
+F 1 "White_LED" H 3925 4600 50  0001 L CNN
+F 2 "junes:MP3030" V 4100 4700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4100 4700 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4100 4700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4100 4700 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4100 4700 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4100 4700 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4100 4700 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4100 4700 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4100 4700 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4100 4700 60  0001 C CNN "Qty:5000"
+	1    4100 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D23
+U 1 1 5881C244
+P 4400 4700
+F 0 "D23" H 4350 4825 50  0000 L CNN
+F 1 "White_LED" H 4225 4600 50  0001 L CNN
+F 2 "junes:MP3030" V 4400 4700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4400 4700 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4400 4700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4400 4700 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4400 4700 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4400 4700 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4400 4700 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4400 4700 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4400 4700 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4400 4700 60  0001 C CNN "Qty:5000"
+	1    4400 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_Small D24
+U 1 1 5881C30C
+P 4700 4700
+F 0 "D24" H 4650 4825 50  0000 L CNN
+F 1 "White_LED" H 4525 4600 50  0001 L CNN
+F 2 "junes:MP3030" V 4700 4700 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf" H 4700 4700 60  0001 C CNN
+F 4 "MP-3030-2200-30-90" H 4700 4700 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "896-MP303022003090" H 4700 4700 60  0001 C CNN "Mouser_Part_#"
+F 6 "Luminus" H 4700 4700 60  0001 C CNN "Manufacturer"
+F 7 "$0.61" H 4700 4700 60  0001 C CNN "Qty:1"
+F 8 "$0.274" H 4700 4700 60  0001 C CNN "Qty:10"
+F 9 "$.145" H 4700 4700 60  0001 C CNN "Qty:100"
+F 10 "$.103" H 4700 4700 60  0001 C CNN "Qty:1000"
+F 11 "$.082" H 4700 4700 60  0001 C CNN "Qty:5000"
+	1    4700 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D26
+U 1 1 5881FDF6
+P 6550 3100
+F 0 "D26" H 6500 3225 50  0000 L CNN
+F 1 "Blue 450nm" H 6250 3300 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 6550 3100 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 6550 3100 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 6550 3100 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6550 3100 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 6550 3100 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 6550 3100 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 6550 3100 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 6550 3100 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 6550 3100 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 6550 3100 60  0001 C CNN "Qty:5000"
+	1    6550 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D27
+U 1 1 5881FEA3
+P 6950 3100
+F 0 "D27" H 6900 3225 50  0000 L CNN
+F 1 "Blue 450nm" H 6650 3300 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 6950 3100 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 6950 3100 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 6950 3100 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6950 3100 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 6950 3100 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 6950 3100 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 6950 3100 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 6950 3100 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 6950 3100 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 6950 3100 60  0001 C CNN "Qty:5000"
+	1    6950 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D28
+U 1 1 5881FF57
+P 7350 3100
+F 0 "D28" H 7300 3225 50  0000 L CNN
+F 1 "Blue 450nm" H 7050 3300 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 7350 3100 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 7350 3100 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 7350 3100 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7350 3100 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 7350 3100 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 7350 3100 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 7350 3100 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 7350 3100 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 7350 3100 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 7350 3100 60  0001 C CNN "Qty:5000"
+	1    7350 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D29
+U 1 1 5882000A
+P 7750 3100
+F 0 "D29" H 7700 3225 50  0000 L CNN
+F 1 "Blue 450nm" H 7450 3300 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 7750 3100 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 7750 3100 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 7750 3100 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7750 3100 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 7750 3100 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 7750 3100 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 7750 3100 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 7750 3100 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 7750 3100 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 7750 3100 60  0001 C CNN "Qty:5000"
+	1    7750 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D30
+U 1 1 588200C0
+P 8050 3100
+F 0 "D30" H 8000 3225 50  0000 L CNN
+F 1 "Blue 450nm" H 7750 3300 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 8050 3100 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 8050 3100 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 8050 3100 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8050 3100 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 8050 3100 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 8050 3100 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 8050 3100 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 8050 3100 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 8050 3100 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 8050 3100 60  0001 C CNN "Qty:5000"
+	1    8050 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D31
+U 1 1 58820175
+P 6150 3450
+F 0 "D31" H 6100 3575 50  0000 L CNN
+F 1 "Blue 450nm" H 5850 3650 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 6150 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 6150 3450 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 6150 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6150 3450 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 6150 3450 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 6150 3450 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 6150 3450 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 6150 3450 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 6150 3450 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 6150 3450 60  0001 C CNN "Qty:5000"
+	1    6150 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D32
+U 1 1 58820279
+P 6550 3450
+F 0 "D32" H 6500 3575 50  0000 L CNN
+F 1 "Blue 450nm" H 6250 3650 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 6550 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 6550 3450 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 6550 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6550 3450 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 6550 3450 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 6550 3450 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 6550 3450 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 6550 3450 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 6550 3450 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 6550 3450 60  0001 C CNN "Qty:5000"
+	1    6550 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D33
+U 1 1 58820338
+P 6950 3450
+F 0 "D33" H 6900 3575 50  0000 L CNN
+F 1 "Blue 450nm" H 6650 3650 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 6950 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 6950 3450 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 6950 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6950 3450 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 6950 3450 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 6950 3450 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 6950 3450 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 6950 3450 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 6950 3450 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 6950 3450 60  0001 C CNN "Qty:5000"
+	1    6950 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D34
+U 1 1 58820402
+P 7350 3450
+F 0 "D34" H 7300 3575 50  0000 L CNN
+F 1 "Blue 450nm" H 7050 3650 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 7350 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 7350 3450 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 7350 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7350 3450 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 7350 3450 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 7350 3450 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 7350 3450 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 7350 3450 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 7350 3450 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 7350 3450 60  0001 C CNN "Qty:5000"
+	1    7350 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D35
+U 1 1 588204C7
+P 7750 3450
+F 0 "D35" H 7700 3575 50  0000 L CNN
+F 1 "Blue 450nm" H 7450 3650 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 7750 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 7750 3450 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 7750 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7750 3450 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 7750 3450 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 7750 3450 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 7750 3450 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 7750 3450 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 7750 3450 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 7750 3450 60  0001 C CNN "Qty:5000"
+	1    7750 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D36
+U 1 1 58820593
+P 8050 3450
+F 0 "D36" H 8000 3575 50  0000 L CNN
+F 1 "Blue 450nm" H 7750 3650 50  0001 L CNN
+F 2 "junes:Blue_450nm" V 8050 3450 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf" H 8050 3450 60  0001 C CNN
+F 4 "SST-10-B-B90-P450" H 8050 3450 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8050 3450 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10BB90P450" H 8050 3450 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.07" H 8050 3450 60  0001 C CNN "Qty:1"
+F 8 "$1.26" H 8050 3450 60  0001 C CNN "Qty:10"
+F 9 "$$1.01" H 8050 3450 60  0001 C CNN "Qty:100"
+F 10 "$0.643" H 8050 3450 60  0001 C CNN "Qty:1000"
+F 11 "$0.597" H 8050 3450 60  0001 C CNN "Qty:5000"
+	1    8050 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D38
+U 1 1 588212E7
+P 6500 4300
+F 0 "D38" H 6450 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 6200 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 6500 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 6500 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 6500 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6500 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 6500 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 6500 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 6500 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 6500 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 6500 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 6500 4300 60  0001 C CNN "Qty:5000"
+	1    6500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D39
+U 1 1 58821388
+P 6900 4300
+F 0 "D39" H 6850 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 6600 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 6900 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 6900 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 6900 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6900 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 6900 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 6900 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 6900 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 6900 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 6900 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 6900 4300 60  0001 C CNN "Qty:5000"
+	1    6900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D40
+U 1 1 58821430
+P 7300 4300
+F 0 "D40" H 7250 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 7000 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 7300 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 7300 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 7300 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7300 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 7300 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 7300 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 7300 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 7300 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 7300 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 7300 4300 60  0001 C CNN "Qty:5000"
+	1    7300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D41
+U 1 1 588214DF
+P 7700 4300
+F 0 "D41" H 7650 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 7400 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 7700 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 7700 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 7700 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7700 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 7700 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 7700 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 7700 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 7700 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 7700 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 7700 4300 60  0001 C CNN "Qty:5000"
+	1    7700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D42
+U 1 1 58821589
+P 8000 4300
+F 0 "D42" H 7950 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 7700 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 8000 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 8000 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 8000 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8000 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 8000 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 8000 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 8000 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 8000 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 8000 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 8000 4300 60  0001 C CNN "Qty:5000"
+	1    8000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D43
+U 1 1 58821636
+P 8300 4300
+F 0 "D43" H 8250 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 8000 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 8300 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 8300 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 8300 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8300 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 8300 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 8300 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 8300 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 8300 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 8300 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 8300 4300 60  0001 C CNN "Qty:5000"
+	1    8300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D44
+U 1 1 588216E6
+P 8600 4300
+F 0 "D44" H 8550 4425 50  0000 L CNN
+F 1 "Deep Red 660nm" H 8300 4500 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 8600 4300 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 8600 4300 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 8600 4300 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8600 4300 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 8600 4300 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 8600 4300 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 8600 4300 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 8600 4300 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 8600 4300 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 8600 4300 60  0001 C CNN "Qty:5000"
+	1    8600 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D45
+U 1 1 58821795
+P 6100 4650
+F 0 "D45" H 6050 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 5800 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 6100 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 6100 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 6100 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6100 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 6100 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 6100 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 6100 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 6100 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 6100 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 6100 4650 60  0001 C CNN "Qty:5000"
+	1    6100 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D46
+U 1 1 588218A9
+P 6500 4650
+F 0 "D46" H 6450 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 6200 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 6500 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 6500 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 6500 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6500 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 6500 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 6500 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 6500 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 6500 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 6500 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 6500 4650 60  0001 C CNN "Qty:5000"
+	1    6500 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D47
+U 1 1 58821962
+P 6900 4650
+F 0 "D47" H 6850 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 6600 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 6900 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 6900 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 6900 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 6900 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 6900 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 6900 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 6900 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 6900 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 6900 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 6900 4650 60  0001 C CNN "Qty:5000"
+	1    6900 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D48
+U 1 1 58821A22
+P 7300 4650
+F 0 "D48" H 7250 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 7000 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 7300 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 7300 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 7300 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7300 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 7300 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 7300 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 7300 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 7300 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 7300 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 7300 4650 60  0001 C CNN "Qty:5000"
+	1    7300 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D49
+U 1 1 58821AE1
+P 7700 4650
+F 0 "D49" H 7650 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 7400 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 7700 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 7700 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 7700 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 7700 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 7700 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 7700 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 7700 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 7700 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 7700 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 7700 4650 60  0001 C CNN "Qty:5000"
+	1    7700 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D50
+U 1 1 58821BA3
+P 8000 4650
+F 0 "D50" H 7950 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 7700 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 8000 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 8000 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 8000 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8000 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 8000 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 8000 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 8000 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 8000 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 8000 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 8000 4650 60  0001 C CNN "Qty:5000"
+	1    8000 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D51
+U 1 1 58821C64
+P 8300 4650
+F 0 "D51" H 8250 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 8000 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 8300 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 8300 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 8300 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8300 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 8300 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 8300 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 8300 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 8300 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 8300 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 8300 4650 60  0001 C CNN "Qty:5000"
+	1    8300 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Led_W/Thermal_Pad D52
+U 1 1 58821D28
+P 8600 4650
+F 0 "D52" H 8550 4775 50  0000 L CNN
+F 1 "Deep Red 660nm" H 8300 4850 50  0001 L CNN
+F 2 "junes:Deep_Red_660nm" V 8600 4650 60  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf" H 8600 4650 60  0001 C CNN
+F 4 "SST-10-DR-B90-H660" H 8600 4650 60  0001 C CNN "Manufacturer_Part_#"
+F 5 "Luminus" H 8600 4650 60  0001 C CNN "Manufacturer"
+F 6 "896-SST10DRB90H660" H 8600 4650 60  0001 C CNN "Mouser_Part_#"
+F 7 "$2.18" H 8600 4650 60  0001 C CNN "Qty:1"
+F 8 "$1.33" H 8600 4650 60  0001 C CNN "Qty:10"
+F 9 "$1.06" H 8600 4650 60  0001 C CNN "Qty:100"
+F 10 "$0.679" H 8600 4650 60  0001 C CNN "Qty:1000"
+F 11 "$0.631" H 8600 4650 60  0001 C CNN "Qty:5000"
+	1    8600 4650
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Andrew/Dropbox/Grow Light/Kicad PCB/PCB - Rev 0.5 01-01-17/light/light.sch</source>
+    <date>1/19/2017 11:50:32 PM</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Grow Light - LED Board</title>
+        <company>Faust Light</company>
+        <rev>0.5</rev>
+        <date/>
+        <source>light.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>576301AA</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5771778E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_02X03</value>
+      <footprint>junes:1814676</footprint>
+      <datasheet>http://www.phoenixcontact.com/us/products/1814676/pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">1814676</field>
+        <field name="Manufacturer">Phoenix Contact</field>
+        <field name="Mouser_Part_#">651-1814676</field>
+        <field name="Qty:1">$1.15</field>
+        <field name="Qty:10">$1.07</field>
+        <field name="Qty:100">$0.987</field>
+        <field name="Qty:1000">$0.809</field>
+        <field name="Qty:5000">$0.748</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57BA50F7</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58311220</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B47D</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B502</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B58E</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B62D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B6BB</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B750</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B7FA</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B895</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B92F</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881B9E2</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BA86</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BB29</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BBD1</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BC7A</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BD2E</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BDDF</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BE91</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881BF46</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881C000</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881C0BF</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881C181</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881C244</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>White_LED</value>
+      <footprint>junes:MP3030</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_MP3030_2100_Datasheet-844783.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">MP-3030-2200-30-90</field>
+        <field name="Mouser_Part_#">896-MP303022003090</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Qty:1">$0.61</field>
+        <field name="Qty:10">$0.274</field>
+        <field name="Qty:100">$.145</field>
+        <field name="Qty:1000">$.103</field>
+        <field name="Qty:5000">$.082</field>
+      </fields>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881C30C</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881FDF6</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881FEA3</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881FF57</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5882000A</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588200C0</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58820175</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58820279</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58820338</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58820402</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588204C7</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>Blue 450nm</value>
+      <footprint>junes:Blue_450nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-B_Datasheet-938689.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-B-B90-P450</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10BB90P450</field>
+        <field name="Qty:1">$2.07</field>
+        <field name="Qty:10">$1.26</field>
+        <field name="Qty:100">$$1.01</field>
+        <field name="Qty:1000">$0.643</field>
+        <field name="Qty:5000">$0.597</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58820593</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588212E7</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821388</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821430</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588214DF</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821589</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821636</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588216E6</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821795</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588218A9</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821962</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821A22</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821AE1</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821BA3</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821C64</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>Deep Red 660nm</value>
+      <footprint>junes:Deep_Red_660nm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/245/Luminus_SST10-DR_Datasheet-938686.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Part_#">SST-10-DR-B90-H660</field>
+        <field name="Manufacturer">Luminus</field>
+        <field name="Mouser_Part_#">896-SST10DRB90H660</field>
+        <field name="Qty:1">$2.18</field>
+        <field name="Qty:10">$1.33</field>
+        <field name="Qty:100">$1.06</field>
+        <field name="Qty:1000">$0.679</field>
+        <field name="Qty:5000">$0.631</field>
+      </fields>
+      <libsource lib="light-cache" part="Led_W/Thermal_Pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58821D28</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="light-cache" part="Led_W/Thermal_Pad">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_W/Thermal_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="Thermal" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="light-cache">
+      <uri>C:\Users\Andrew\Dropbox\Grow Light\Kicad PCB\PCB - Rev 0.5 01-01-17\light\light-cache.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D14-Pad1)">
+      <node ref="D14" pin="1"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D10-Pad1)">
+      <node ref="D11" pin="2"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D8-Pad1)">
+      <node ref="D9" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D23-Pad1)">
+      <node ref="D24" pin="2"/>
+      <node ref="D23" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D22-Pad1)">
+      <node ref="D23" pin="2"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D19-Pad1)">
+      <node ref="D20" pin="2"/>
+      <node ref="D19" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D20-Pad1)">
+      <node ref="D21" pin="2"/>
+      <node ref="D20" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D17-Pad1)">
+      <node ref="D18" pin="2"/>
+      <node ref="D17" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D49-Pad1)">
+      <node ref="D50" pin="2"/>
+      <node ref="D49" pin="1"/>
+    </net>
+    <net code="14" name="R-">
+      <node ref="D52" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="15" name="R+">
+      <node ref="P1" pin="1"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D48-Pad1)">
+      <node ref="D49" pin="2"/>
+      <node ref="D48" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D47-Pad1)">
+      <node ref="D47" pin="1"/>
+      <node ref="D48" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D46-Pad1)">
+      <node ref="D47" pin="2"/>
+      <node ref="D46" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D45-Pad1)">
+      <node ref="D45" pin="1"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D5-Pad1)">
+      <node ref="D6" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D4-Pad1)">
+      <node ref="D5" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="22" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D2-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="24" name="THERMAL">
+      <node ref="D34" pin="3"/>
+      <node ref="D25" pin="3"/>
+      <node ref="D29" pin="3"/>
+      <node ref="D38" pin="3"/>
+      <node ref="D33" pin="3"/>
+      <node ref="D36" pin="3"/>
+      <node ref="D39" pin="3"/>
+      <node ref="D37" pin="3"/>
+      <node ref="D28" pin="3"/>
+      <node ref="D49" pin="3"/>
+      <node ref="D32" pin="3"/>
+      <node ref="D52" pin="3"/>
+      <node ref="D30" pin="3"/>
+      <node ref="D31" pin="3"/>
+      <node ref="D47" pin="3"/>
+      <node ref="D48" pin="3"/>
+      <node ref="D51" pin="3"/>
+      <node ref="D50" pin="3"/>
+      <node ref="D27" pin="3"/>
+      <node ref="D26" pin="3"/>
+      <node ref="D45" pin="3"/>
+      <node ref="D44" pin="3"/>
+      <node ref="D43" pin="3"/>
+      <node ref="D46" pin="3"/>
+      <node ref="D42" pin="3"/>
+      <node ref="D35" pin="3"/>
+      <node ref="D41" pin="3"/>
+      <node ref="D40" pin="3"/>
+    </net>
+    <net code="25" name="Net-(D51-Pad1)">
+      <node ref="D52" pin="2"/>
+      <node ref="D51" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D50-Pad1)">
+      <node ref="D51" pin="2"/>
+      <node ref="D50" pin="1"/>
+    </net>
+    <net code="27" name="Net-(D43-Pad1)">
+      <node ref="D44" pin="2"/>
+      <node ref="D43" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D42-Pad1)">
+      <node ref="D43" pin="2"/>
+      <node ref="D42" pin="1"/>
+    </net>
+    <net code="29" name="Net-(D41-Pad1)">
+      <node ref="D41" pin="1"/>
+      <node ref="D42" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D40-Pad1)">
+      <node ref="D40" pin="1"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D31-Pad1)">
+      <node ref="D31" pin="1"/>
+      <node ref="D32" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D29-Pad1)">
+      <node ref="D30" pin="2"/>
+      <node ref="D29" pin="1"/>
+    </net>
+    <net code="33" name="Net-(D28-Pad1)">
+      <node ref="D28" pin="1"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D26-Pad1)">
+      <node ref="D27" pin="2"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="35" name="Net-(D27-Pad1)">
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D39-Pad1)">
+      <node ref="D39" pin="1"/>
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="37" name="Net-(D38-Pad1)">
+      <node ref="D39" pin="2"/>
+      <node ref="D38" pin="1"/>
+    </net>
+    <net code="38" name="Net-(D35-Pad1)">
+      <node ref="D36" pin="2"/>
+      <node ref="D35" pin="1"/>
+    </net>
+    <net code="39" name="Net-(D34-Pad1)">
+      <node ref="D35" pin="2"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="40" name="Net-(D32-Pad1)">
+      <node ref="D32" pin="1"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D33-Pad1)">
+      <node ref="D34" pin="2"/>
+      <node ref="D33" pin="1"/>
+    </net>
+    <net code="42" name="B-">
+      <node ref="D36" pin="1"/>
+      <node ref="P1" pin="6"/>
+      <node ref="D30" pin="1"/>
+    </net>
+    <net code="43" name="W+">
+      <node ref="D13" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D16" pin="2"/>
+      <node ref="D19" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="44" name="W-">
+      <node ref="P1" pin="4"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D9" pin="1"/>
+    </net>
+    <net code="45" name="B+">
+      <node ref="D25" pin="2"/>
+      <node ref="D31" pin="2"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="46" name="Net-(D25-Pad1)">
+      <node ref="D25" pin="1"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="47" name="Net-(D37-Pad1)">
+      <node ref="D37" pin="1"/>
+      <node ref="D38" pin="2"/>
+    </net>
+  </nets>
+</export>
