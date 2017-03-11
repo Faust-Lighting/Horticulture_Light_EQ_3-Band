@@ -4,4 +4,4 @@
 **ASM1001**
 * Current Revision 0.1
 * Change Description:
-* Initial GitHub release.
+-Initial GitHub release.
