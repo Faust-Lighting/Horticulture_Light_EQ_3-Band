@@ -35,7 +35,5 @@ EQ is a Wifi enabled 2ft linear grow light.  The light spectrum and on/off sched
 
 * Input Voltage:  90-265VAC, 50/60Hz
 * Power Consumption:  40W typical (varies with spectrum)
-* Dimensions:  24.00" (L) x 2.50" (W) x 2.75" (H)
+* Dimensions:  24.98" (L) x 2.63" (W) x 2.81" (H)
 * Weight:  3.0 lbs
-* PPF:  200 µmol/s typical (varies with spectrum)
-* Efficacy:  2.0 µmol/J typical (varies with spectrum)
